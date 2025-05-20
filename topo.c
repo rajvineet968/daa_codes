@@ -40,7 +40,7 @@ void toposort()
                 queue[rear++] = i;
         }
     }
-}
+    }
     if (count < n)
         printf("Cycle exists");
     for (i = 0; i < count; i++)
